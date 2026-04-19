@@ -1,110 +1,129 @@
-# flutter_app
+# 🛒 Mini Shopee Clone (Flutter)
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-
-# Belajar Dart & Flutter - Mini Shopee Clone
-
-Proyek ini adalah **aplikasi mini toko online** ala Shopee menggunakan **Flutter**.  
-Tujuannya untuk belajar **Dart**, **Flutter widgets**, **State Management sederhana** menggunakan `ValueNotifier`, **GridView**, **Navigation**, dan **UI design responsif**.
+A Flutter-based mini e-commerce application inspired by Shopee.
+This project is built for learning **Dart**, **Flutter UI**, and basic **state management**.
 
 ---
 
-## Fitur
+## 📌 About the Project
 
-- Halaman utama dengan **pencarian produk**.
-- Produk ditampilkan dalam **grid**, lengkap dengan:
-  - Nama produk
-  - Harga
-  - Rating & jumlah terjual
-  - Tombol **Beli** dan **Keranjang**
-- Detail produk menampilkan:
-  - Gambar produk
-  - Harga
-  - Rating & jumlah terjual
-  - Deskripsi produk
-  - Tombol tambah ke keranjang & beli sekarang
-- Halaman **Keranjang** menampilkan semua produk yang ditambahkan
-  - Dapat menghapus item dari keranjang
-  - Menampilkan total harga
+This project demonstrates how to build a simple online shopping app using Flutter, focusing on:
+
+* UI design & responsive layout
+* Navigation between pages
+* State management using `ValueNotifier`
+* Grid-based product display
 
 ---
 
-## Screenshot (Contoh)
+## ✨ Features
 
-**HomePage:**
-Gambar Grid Produk + Rating
+* 🔍 Product search on homepage
+* 🛍️ Product grid display:
 
-makefile
-Salin kode
+  * Product name
+  * Price
+  * Rating & sold count
+  * "Buy" & "Add to Cart" buttons
+* 📄 Product detail page:
 
-**DetailPage:**
-Gambar detail produk + rating + deskripsi
+  * Product image
+  * Price
+  * Rating & sold count
+  * Description
+  * Add to cart & buy now
+* 🛒 Cart page:
 
-makefile
-Salin kode
-
-**CartPage:**
-Daftar produk di keranjang + total harga
-
-yaml
-Salin kode
+  * View added products
+  * Remove items
+  * Display total price
 
 ---
 
-## Struktur Proyek
+## 📸 Screenshots
 
+### Home Page
+
+Product grid with ratings
+
+### Detail Page
+
+Product details with description
+
+### Cart Page
+
+Cart list with total price
+
+---
+
+## 📁 Project Structure
+
+```
 lib/
-├── main.dart -> Semua kode aplikasi (Home, Detail, Cart)
-assets/
-├── images/
-│ ├── sepatu.jpg
-│ ├── baju.jpg
-│ ├── tas.jpg
-│ └── jam.jpg
-pubspec.yaml -> Konfigurasi assets dan dependencies
+ └── main.dart        # Main app (Home, Detail, Cart)
 
-yaml
-Salin kode
+assets/
+ └── images/
+      ├── sepatu.jpg
+      ├── baju.jpg
+      ├── tas.jpg
+      └── jam.jpg
+
+pubspec.yaml          # Assets & dependencies configuration
+```
 
 ---
 
-## Cara Install & Run
+## ⚙️ Getting Started
 
 ### 1. Install Flutter
 
-Ikuti panduan resmi Flutter:  
-[Flutter Installation](https://docs.flutter.dev/get-started/install)
+Follow the official guide:
+https://docs.flutter.dev/get-started/install
 
-Pastikan `flutter doctor` **tidak ada error**.
+Check installation:
 
 ```bash
 flutter doctor
-2. Clone Repo
-bash
-Salin kode
-git clone <URL_REPO_ANDA>
-cd <NAMA_FOLDER>
-3. Install Dependencies
-bash
-Salin kode
-flutter pub get
-4. Jalankan Aplikasi
-Jalankan di emulator atau device fisik:
+```
 
-bash
-Salin kode
+---
+
+### 2. Clone Repository
+
+```bash
+git clone <YOUR_REPO_URL>
+cd <PROJECT_FOLDER>
+```
+
+---
+
+### 3. Install Dependencies
+
+```bash
+flutter pub get
+```
+
+---
+
+### 4. Run the App
+
+```bash
 flutter run
+```
+
+---
+
+## 🎯 Purpose
+
+This project is created for learning and practice purposes, especially for:
+
+* Beginners in Flutter
+* UI development practice
+* Understanding basic app structure
+
+---
+
+## 🧑‍💻 Author
+
+Made with ❤️ using Flutter
